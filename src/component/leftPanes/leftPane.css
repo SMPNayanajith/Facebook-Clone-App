@@ -1,0 +1,56 @@
+.leftPaneBox{
+    background-color: white;
+    flex: 2;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    font-family: sans-serif;
+    top: 50px;
+
+}
+.leftPainContainer{
+    padding: 20px;
+}
+.leftPainMenu{
+    padding: 0;
+    margin: 0;
+
+}
+.leftPainMenuItems{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.LeftPainMenuIcons{
+    margin-right: 20px;
+
+}
+.c{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+}
+.pagesYouLike{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: gray;
+    display: flex;
+}
+.pageList{
+    padding: 0;
+    margin: 0;
+
+}
+.pagelistItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.pageName{
+    margin-left: 10px;
+
+}
